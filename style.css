@@ -1,0 +1,102 @@
+*{margin:0;padding:0;}
+
+/**--------full header starts-----01---**/
+.container-full{
+    width:100% ;
+    height: auto;
+    border-bottom: 2px solid red;
+}
+.bg{
+    background-image: url(images/1.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.container{
+    width: 960px;
+    margin:0 auto;
+}
+.bg1{
+    background-color: orange;
+    height: 60px;
+}
+/**starts header logo.....sub-1**/
+.header .logo>img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+/**end header logo........sub-1**/
+/**starts nav.......sub-2**/
+.header .nav{
+float:right;
+margin-top: -30px;
+}
+.header .nav ul li{
+list-style-type: none;
+float: right;
+}
+.header .nav ul li a{
+text-decoration: none;
+font-family: sansation;
+font-weight: bold;
+padding:20px;
+margin: 15px;
+}
+.header .nav ul li a:hover{
+background-color: blue;
+color: azure;
+border-radius: 20px;
+}
+/**end nav......sub-2**/
+/**--------full header end-----01---**/
+/**section starts.....02--**/
+.section-full{
+    width: 960px;
+    margin:0 auto;
+}
+.section-full .section1>img{
+width: 960px;
+height: 500px;
+margin-top: 1px;
+}
+.bg3{
+    background-image: url(images/5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/**section end.....02--**/
+/**main starts.....03...**/
+.bg4{
+    background-color: aquamarine;
+}
+.main{
+    width: 960px;
+    margin:0 auto;
+}
+.bg5{
+    background-color: orange;
+}
+/**main end.....03...**/
+/**main footer starts.....04...**/
+.container5{
+    width: 960px;
+    margin:0 auto;
+}
+.row .col>p{
+    float: left;
+}
+.col{
+    width: 300px;
+    height: 300px;
+    display:inline-block;
+  
+}
+.bg6{
+    background-color: blueviolet;
+}
+.footer {
+    text-align: center;
+    background-color: black;
+    color: azure;
+}
